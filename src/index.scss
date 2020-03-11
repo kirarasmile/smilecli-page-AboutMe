@@ -13,7 +13,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 @import "stylesheets/labels.scss";
 
 body {
-    background: url('./assets/images/header-background.svg') #466685;
+    background: url('./assets/images/circuit-board.svg') #466685;
     background-size: cover;
 
     font-size: 1em;
@@ -61,4 +61,10 @@ $section-border-radius: 2em;
 
 .identities .small-labels .group::before, .identities .small-labels .label::before {
     color: #333;
+}
+li{
+    list-style: none;
+}
+ul{
+    align-content: center;
 }
